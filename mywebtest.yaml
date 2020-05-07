@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+    name:  mywebtest
+spec:
+    replicas: 2
+    selector:
+        app: mywebtest
+    template:
+        metadata:
+            labels:
+                app: mywebtest
+        spec:
+            containers:
+              - name:  mywebtest
+                image:  babyshow/goback
+                ports:
+                - containerPort: 8383
