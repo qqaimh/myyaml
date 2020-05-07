@@ -112,8 +112,8 @@ data:
           "type": "flannel",
           "delegate": {
             "hairpinMode": true,
-            "isDefaultGateway": true,
-            }
+            "isDefaultGateway": true
+          }
         },
         {
           "type": "portmap",
