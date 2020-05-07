@@ -110,10 +110,9 @@ data:
       "plugins": [
         {
           "type": "flannel",
-          "delegate": {
+          "delegate": 
             "hairpinMode": true,
             "isDefaultGateway": true
-          }
         },
         {
           "type": "portmap",
