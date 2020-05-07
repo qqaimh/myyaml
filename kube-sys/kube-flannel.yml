@@ -113,7 +113,7 @@ data:
           "delegate": {
             "hairpinMode": true,
             "isDefaultGateway": true
-          }
+            }
         },
         {
           "type": "portmap",
