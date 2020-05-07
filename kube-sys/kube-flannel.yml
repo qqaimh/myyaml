@@ -111,8 +111,8 @@ data:
         {
           "type": "flannel",
           "delegate": {
-            "hairpinMode": "true",
-            "isDefaultGateway": "true"
+            "hairpinMode": true,
+            "isDefaultGateway": true
           }
         },
         {
