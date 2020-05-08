@@ -6,15 +6,15 @@ spec:
     replicas: 2
     selector:
         app: mybefore
-        version: v0.0.1
+        version: v0.0.2
     template:
         metadata:
             labels:
                 app: mybefore
-                version: v0.0.1
+                version: v0.0.2
         spec:
             containers:
               - name:  mybefore
-                image:  babyshow/mybefore:v0.0.1
+                image:  babyshow/mybefore:v0.0.2
                 ports:
                 - containerPort: 8080
